@@ -451,4 +451,14 @@ function touchm_field__field_portfolio_image($variables) {
   return $output;
 }
 
+/**
+ * Hide Author and date from search result pages.
+ */
+function touchm_preprocess_search_result(&$vars) {
+  //delete user + date string
+  unset($vars['info']);
+
+  //delete user + date array
+  unset($vars['info_split']);
+}
 
