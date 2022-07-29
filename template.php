@@ -32,7 +32,7 @@ function _touchm_add_css() {
   drupal_add_css($theme_path . '/stylesheets/' . $default_color . '.css');
   drupal_add_css($common_theme_path . '/plugins/titan/css/jquery.titanlighbox.css');
   drupal_add_css($common_theme_path . '/stylesheets/touchm.css');
-  drupal_add_css($theme_path . '/stylesheets/subsite-style.css');
+  drupal_add_css($theme_path . '/stylesheets/custom.css');
 }
 
 function touchm_preprocess_page(&$vars) {
