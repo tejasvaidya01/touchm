@@ -76,9 +76,10 @@ drupal_add_js('jQuery(document).ready(function(){
 		   <div class="logo">
 					<a class="logo" href="<?php print $serverlink; ?>"><img src="<?php print $logo; ?>" alt="<?php print t('IITB'); ?>" /></a>
 		</div>
-		   <div class="fst">
-<a  href="<?php print $serverlink; ?>"><h5> Indian Institute of Technology Bombay</h5></a>
-			</div>
+    <?php //print $serverlink; ?>
+		   <!--<div class="fst">
+<a  href=""><h5> Indian Institute of Technology Bombay</h5></a>
+			</div>-->
     <!-- End Logo -->
 			<div class="snd">
 				 <?php if ($site_name || $site_slogan): ?>

@@ -26,7 +26,8 @@ function touchm_preprocess_html(&$variables) {
 function _touchm_add_css() {
   $theme_path = $theme_path = path_to_theme();
   $default_color = theme_get_setting('theme_color', 'touchm');
-  $common_theme_path = $theme_path . '/../../../../sites/all/themes/touchm';
+  $common_theme_path = $theme_path;
+  // . '/../../../../sites/all/themes/touchm';
   drupal_add_css($common_theme_path . '/stylesheets/foundation.min.css');
   drupal_add_css($common_theme_path . '/stylesheets/common-style.css');
   drupal_add_css($theme_path . '/stylesheets/' . $default_color . '.css');
