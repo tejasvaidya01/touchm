@@ -5603,8 +5603,8 @@ a.logo {
 }
 
 .logo {
-    padding: 5px 0 5px 0;
-    width: 10em;
+    padding: 5px 10px 5px 5px;
+    width: 12em;
 }
 
 a.djlogo {
