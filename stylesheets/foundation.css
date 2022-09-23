@@ -951,7 +951,8 @@ auto;
 }
 
 .two,.row .two {
-    width: 50%;
+    /*width: 50%;*/
+    width: 16.66666%;
 }
 
 .three,.row

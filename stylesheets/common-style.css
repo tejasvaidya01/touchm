@@ -436,7 +436,7 @@ form.custom div.custom.dropdown a.selector {
 }
 
 .region2wrap .columns {
-    padding: 0;
+    /*padding: 0;*/
 }
 
 /* ====> Region 3 Wrap <==== */
@@ -5137,7 +5137,8 @@ html[xmlns] .slides {
 
 /* ====================== CUSTOM CSS by Subhas ======================= */
 .two {
-    width: 50%;
+    /*width: 50%;*/
+    width: 16.66666%;
 }
 
 .nine, .row .nine {
@@ -5604,7 +5605,7 @@ a.logo {
 
 .logo {
     padding: 5px 10px 5px 5px;
-    width: 12em;
+    width: 10em;
 }
 
 a.djlogo {

@@ -10,3 +10,15 @@ a.dhtml-menu-icon {
    padding: 15px;
    color: #fff;
 }
+
+.header_logo1 img{
+  width:8em;
+}
+
+.header_logo2 img{
+  width:11em;
+}
+
+.header_title, .header_logo1, .header_logo2 {
+  text-align: center;
+}

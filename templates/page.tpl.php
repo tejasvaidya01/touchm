@@ -59,43 +59,29 @@ drupal_add_js('jQuery(document).ready(function(){
 <!-- Region 2 Wrap -->
 
 <div class="container region2wrap">
-
-  <div class="row">
-
-    <!-- Logo -->
-		  <?php if ($logo){
-		 
-			  if (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == "on") {
-					$serverlink = 'https://' . $_SERVER['HTTP_HOST'];
-				} 
-				else {
-					$serverlink = 'http://' . $_SERVER['HTTP_HOST'];
-				}
-		  ?>
-	  
-		   <div class="logo">
-					<a class="logo" href="<?php print $serverlink; ?>"><img src="<?php print $logo; ?>" alt="<?php print t('IITB'); ?>" /></a>
-		</div>
-    <?php //print $serverlink; ?>
-		   <!--<div class="fst">
-<a  href=""><h5> Indian Institute of Technology Bombay</h5></a>
-			</div>-->
-    <!-- End Logo -->
-			<div class="snd">
-				 <?php if ($site_name || $site_slogan): ?>
-            <h2><a href="<?php print $serverlink; ?>" id="slogan-site-name">भारतीय प्रौद्योगिकी संस्थान मुंबई</a></h2>
-  					<h1><a href="<?php print $serverlink; ?>" id="slogan-site-name"><?php print $site_name; ?></a></h1>
-				  <?php endif; ?>
-			</div>
-
-    <div class="djlogo">
+    <?php
+      if (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == "on") {
+        $serverlink = 'https://' . $_SERVER['HTTP_HOST'];
+      } else {
+        $serverlink = 'http://' . $_SERVER['HTTP_HOST'];
+      }
+    ?>
+    <div class="row">
+      <div class="header_logo1 two columns">
+        <a href="<?php print $serverlink; ?>"><img src="<?php print $logo; ?>" alt="<?php print t('IITB'); ?>" /></a>
+      </div>
+      <div class="header_title eight columns">
+        <?php if ($site_name || $site_slogan): ?>
+          <h2><a href="<?php print $serverlink; ?>">भारतीय प्रौद्योगिकी संस्थान मुंबई</a></h2>
+          <h1><a href="<?php print $serverlink; ?>"><?php print $site_name; ?></a></h1>
+        <?php endif; ?>
+      </div>
+      <div class="header_logo2 two columns">
         <a href="<?php print $serverlink; ?>/en/azadi-ka-amrit-mahotsav">
-        <img src="<?php print $serverlink;?>/sites/www.iitb.ac.in/themes/touchm/logo_75.png" alt="Azadi Ka Amrit Mahotsav" /></a>
+          <img src="<?php print $serverlink;?>/sites/www.iitb.ac.in/themes/touchm/logo_75.png" alt="Azadi Ka Amrit Mahotsav" />
+        </a>
+      </div>
     </div>
-      <?php } ?>
-    </div>
-
-
 
     <!-- Main Navigation -->
 
@@ -107,11 +93,7 @@ drupal_add_js('jQuery(document).ready(function(){
 			<?php print $navigation; ?> <!--after-->
 		</div>
 	
-
 		<nav class="top-bar">
-
-
-
         <!--<ul>-->
           <!-- Toggle Button Mobile  -->
            <!--<li class="name">
