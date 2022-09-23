@@ -432,6 +432,7 @@ form.custom div.custom.dropdown a.selector {
 /* ====> Region 2 Wrap <==== */
 
 .region2wrap {
+    padding-top: 10px;
     background: #fff;
 }
 
