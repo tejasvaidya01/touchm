@@ -1956,7 +1956,7 @@ min-width: 207px;
 
 .mainslider-container {
     background-color: #fff;
-    width: 950px;
+    /*width: 950px;*/
     padding: 0px;
     position: relative;
     position: relative;
@@ -1967,7 +1967,7 @@ min-width: 207px;
 }
 /* .mainslider{width:950px;height:490px;	position:relative;overflow:hidden;} */
 .mainslider {
-    width: 950px;
+    /*width: 950px;*/
     height: 330px;
     position: relative;
     overflow: hidden;
