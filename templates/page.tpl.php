@@ -78,7 +78,7 @@ drupal_add_js('jQuery(document).ready(function(){
       </div>
       <div class="header_logo2 two columns">
         <a href="<?php print $serverlink; ?>/en/azadi-ka-amrit-mahotsav">
-          <img src="<?php print $serverlink;?>/sites/www.iitb.ac.in/themes/touchm/logo_75.png" alt="Azadi Ka Amrit Mahotsav" />
+          <img src="<?php print $serverlink;?>/sites/www.iitb.ac.in/themes/touchm/azadig20_logo.png" alt="Azadi Ka Amrit Mahotsav" />
         </a>
       </div>
     </div>
