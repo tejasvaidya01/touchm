@@ -56,9 +56,6 @@
     ?>
     <script src="<?php echo $base_url; ?>/sites/all/modules/jquery_update/replace/jquery/1.10/jquery.js"> </script>
 
-    <!--[if lt IE 9]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
   </head>
   <body class="<?php print $classes; ?>" <?php print $attributes; ?>>
     <div id="skip-link">
